@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+:root{
+
+    --DarkMagenta: hsl(300, 43%, 22%);
+    --SoftPink: hsl(333, 80%, 67%);
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%)
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
+    overflow: hidden;
+    background-color: var(--White);
+    margin-top: 220px;
+    margin-left: 270px;
+    font-family: 'Spartan', sans-serif;
+    display: inline-block;
+    
+}
+
+.top,.review-section{
+    display: flex;
+}
+.review-section{
+    
+    
+    margin-top: 50px;
+
+      
+    
+}
+.review-1,.review-2,.review-3{
+    border-radius: 15px;
+    background-color: var(--DarkMagenta);
+    
+    padding: 20px;
+    width: 356px;
+    height: 256px;
+    margin-right: 50px;
+
+    }
+
+.icon{
+    border-radius: 50%;
+    display: block;
+    margin-top: 15px;
+}
+h2{
+    color: var(--White);
+    font-size: 15px;
+    margin-left: 90px;
+    margin-top: -60px;
+    margin-bottom: 60px;
+      
+}
+h2 span{
+    color: var(--SoftPink);
+    line-height: 4vh;
+}
+.review-section img{
+    width: 50px;
+    margin:20px;
+}
+.rating-box-1,.rating-box-2,.rating-box-3{
+    background-color: var(--LightGrayishMagenta);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 15px 40px;
+    width: 400px;
+
+}
+
+.rating-box-2{
+    margin-left: 50px;
+  
+ 
+}
+.rating-box-3{
+    
+    margin-left: 100px;
+    
+}
+h1{
+    color: var(--DarkMagenta);
+    font-weight:700 ;
+    font-size: 3.5em;
+    
+}
+.top-left-intro{
+    width: 46%;
+    
+    
+}
+.top-left-intro p{
+    color: var(--DarkMagenta);
+    font-weight: 400;
+    margin-top: 20px;
+    
+    
+}
+.top-left-rating{
+    
+    margin-left: 150px;
+    color: var(--DarkMagenta);
+    font-weight: 700;
+}
+.top-left-rating span{
+    margin-left: 20px;
+}
+.review-text{
+    color: var(--LightGrayishMagenta);
+}
+.review-2{
+    margin-top: 50px;
+}
+.review-3{
+    margin-top: 100px;
+}
